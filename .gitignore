@@ -1,0 +1,6 @@
+node_modules
+dist
+.vscode
+.DS*
+.readline*
+data/cookies.txt

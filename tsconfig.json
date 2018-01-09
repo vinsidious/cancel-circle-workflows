@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "charset": "utf-8",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
+    "outDir": "./dist/",
+    "pretty": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "declaration": true,
+    "lib": [
+      "es2016",
+      "es2017.object"
+    ],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

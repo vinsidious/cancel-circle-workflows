@@ -1,0 +1,37 @@
+{
+  "name": "cancel-circle-workflows",
+  "description": "A proof-of-concept library to cancel redundant CircleCI workflows",
+  "version": "0.0.1",
+  "keywords": [
+    "circleci",
+    "workflows",
+    "redundant",
+    "cancel"
+  ],
+  "author": {
+    "name": "Vince Coppola",
+    "email": "vincecoppola@gmail.com",
+    "web": "https://github.com/vincecoppola"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincecoppola/cancel-circle-workflows.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "lodash": "^4.17.4",
+    "transit-js": "^0.8.846"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.53",
+    "replication": "0.0.7",
+    "tslib": "^1.8.0",
+    "typescript": "^2.6.1"
+  }
+}

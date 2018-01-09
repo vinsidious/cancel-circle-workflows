@@ -1,0 +1,8 @@
+# Folders
+src
+data
+.vscode
+
+# Files
+tsconfig.json
+.readline_history
